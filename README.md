@@ -1,7 +1,17 @@
-# Car-Defects-Identifier
-## Overview
+# 🚗 Car Defects Identifier
 
-Car Defects Identifier is an AI-powered tool designed to detect and classify defects in vehicles, such as paint damage, cracks, and dents. The system leverages a YOLO (You Only Look Once) object detection model to analyze images of cars and identify defects accurately.
+A YOLOv8-based deep learning project to detect car defects like **dents**, **paint damage**, and **gaps**.  
+It includes training scripts, pre-trained weights, and a user-friendly Gradio web interface.
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Create a Virtual Environment
+
+```bash
+py -3.11 -m venv car_defects_env
+
 
 ## Features
 - Automated Defect Detection: Identifies paint damage, cracks, and dents in vehicle images.
